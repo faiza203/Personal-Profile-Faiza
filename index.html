@@ -5,47 +5,170 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <style>
+    body {
+      size: inherit;
+      margin: 0;
+      padding: 0;
+    }
+    #first {
+      margin-bottom: -16px;
+    }
+    #first ol {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      background: #be3144;
+      padding: 10px 10px 10px 10px;
+      padding-left: 300px;
+    }
+    #first li {
+      font-size: 30px;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      padding: 10px 40px 10px 10px;
+    }
+    #first .aaa {
+      margin-left: 885px;
+    }
+    #second {
+      background-color: black;
+      color: white;
+      background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+      text-align: center;
+      padding: 200px 0px 200px 0px;
+    }
+    #second h1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 70px;
+    }
+    #second p {
+      color: red;
+      font-family: "Poppins", sans-serif;
+      font-weight: 100;
+      font-size: 30px;
+      font-style: italic;
+    }
+    #third {
+      background: #45567d;
+      margin-top: -22px;
+    }
+    #thirdA h1 {
+      font-size: 45px;
+      text-align: center;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      border-bottom: 2px white solid;
+      margin-right: 450px;
+      margin-left: 450px;
+      padding-top: 100px;
+      margin-top: 10px;
+    }
+    #third #thirdaa {
+      display: flex;
+      flex-direction: row;
+      margin-top: 50px;
+      margin-right: 100px;
+      margin-left: 150px;
+    }
+    #thirdA img {
+      height: 20rem;
+      width: 25rem;
+      padding: 10px 10px 10px 10px;
+    }
+    #thirdab img {
+      margin-left: 150px;
+      margin-top: 10px;
+    }
+    #third .abc {
+      display: flex;
+      flex-direction: column;
+    }
+    #third  p {
+    font-size: 27px;
+    color: white;
+    padding: 10px 0px 10px 110px;
+    margin: -14px 10px 10px 10px;
+    background-color: #303841;
+    }
+    #thirdab .abc p{
+    margin-left: 156px;
+    margin-right: 1022px;
+    }
+    #third #bu {
+      background-color:#303841 ;
+      color: white;
+      height: 50px;
+      border: none;
+      font-size: 25px;
+      width: 150px;
+      margin-top: 100px;
+      margin-left: 750px;
+      margin-bottom: 100px;
+    }
+  </style>
   <body>
     <div id="first">
       <ol>
-        <li>About</li>
+        <li class="aaa">About</li>
         <li>Work</li>
         <li>Contect</li>
       </ol>
     </div>
     <div id="second">
       <h1>Hey I am Faiza</h1>
-      <p>a web developer
-    </p>
+      <p>a web developer</p>
     </div>
     <div id="third">
       <div id="thirdA">
-        <h1>These are some of my projects
-        </h1>
-        <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" >
-        <img src="C:/Users/Faiza/Pictures/a.png" />
-        <img src="C:/Users/Faiza/Pictures/b.png" />
-        <img src="C:/Users/Faiza/Pictures/c.png" />
+        <h1>These are some of my projects</h1>
+        <div id="thirdaa">
+          <div class="abc">
+            <img
+              src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg"
+              alt="project"
+            />
+            <p>Tribute Page</p>
+          </div>
+          <div class="abc">
+            <img src="C:/Users/Faiza/Pictures/a.png" />
+            <p>Product Page</p>
+          </div>
+          <div id="abc">
+            <img src="C:/Users/Faiza/Pictures/b.png" />
+            <p>Survey form</p>
+          </div>
+        </div>
+
+        <div id="thirdab">
+          <div class="abc">
+            <img src="C:/Users/Faiza/Pictures/c.png" />
+            <p>Technical Page</p>
+          </div>
+        </div>
       </div>
       <div id="thirdB">
-        <button><a href="" >Show All ></a> </button>
+        <button id="bu" >Show All ></button>
       </div>
     </div>
     <div id="fourth">
-      <h1></h1>
-      <p></p>
+      <h1>Let's work together...</h1>
+      <p>How do you take your coffee?</p>
       <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Facebook</li>
+        <li>GitHub</li>
+        <li>Twitter</li>
+        <li>Send a mail</li>
+        <li>Call Me</li>
       </ol>
     </div>
     <div id="fifth">
       <ol>
-        <li></li>
-        <li></li>
+        <li>
+          **This is just a fake portfolio. All the projects and contact details
+          given are not real.
+        </li>
+        <li>Createtd For FreeCodeCamp</li>
       </ol>
     </div>
   </body>
