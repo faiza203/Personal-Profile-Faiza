@@ -10,9 +10,13 @@
       size: inherit;
       margin: 0;
       padding: 0;
+      background-color:#383041;
     }
     #first {
       margin-bottom: -16px;
+      position: sticky;
+      top: 0;
+      margin-top: 0px;
     }
     #first ol {
       list-style-type: none;
@@ -84,19 +88,19 @@
       display: flex;
       flex-direction: column;
     }
-    #third  p {
-    font-size: 27px;
-    color: white;
-    padding: 10px 0px 10px 110px;
-    margin: -14px 10px 10px 10px;
-    background-color: #303841;
+    #third p {
+      font-size: 27px;
+      color: white;
+      padding: 10px 0px 10px 110px;
+      margin: -14px 10px 10px 10px;
+      background-color: #303841;
     }
-    #thirdab .abc p{
-    margin-left: 156px;
-    margin-right: 1022px;
+    #thirdab .abc p {
+      margin-left: 156px;
+      margin-right: 1022px;
     }
     #third #bu {
-      background-color:#303841 ;
+      background-color: #303841;
       color: white;
       height: 50px;
       border: none;
@@ -106,13 +110,60 @@
       margin-left: 750px;
       margin-bottom: 100px;
     }
+    #fourth {
+      background-color: #303841;
+      margin-top: -22px;
+      text-align: center;
+      color: white;
+      border-bottom: 7px #be3144 solid;
+    }
+    #fourth h1 {
+      padding-top: 200px;
+      font-size: 65px;
+      margin-top: 0px;
+      font-family: "Poppins", sans-serif;
+    }
+    #fourth p {
+      font-size: 30px;
+      font-style: italic;
+      margin-top: -25px;
+    }
+    #fourth ol {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      margin-left: 420px;
+      margin-right: 420px;
+      font-size: 25px;
+      padding-bottom: 7em;
+    }
+    #fourth li {
+      padding: 10px 20px 10px 20px;
+      font-family: "Poppins", sans-serif;
+    }
+    #fifth {
+      background-color: #303841;
+      margin: -25px 0px 0px 0px;
+      justify-content: space-evenly;
+    }
+    #fifth ol {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      color: white;
+      font-size: 25px;
+    }
+    #fifth li {
+      padding: 50px 187px 0px 20px;
+      margin: 0px 0px 0px 0px;
+    }
   </style>
   <body>
     <div id="first">
       <ol>
         <li class="aaa">About</li>
         <li>Work</li>
-        <li>Contect</li>
+        <li>Contact</li>
       </ol>
     </div>
     <div id="second">
@@ -125,9 +176,7 @@
         <div id="thirdaa">
           <div class="abc">
             <img
-              src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg"
-              alt="project"
-            />
+              src=    "C:/Users/Faiza/Pictures/d.png"        />
             <p>Tribute Page</p>
           </div>
           <div class="abc">
@@ -148,18 +197,18 @@
         </div>
       </div>
       <div id="thirdB">
-        <button id="bu" >Show All ></button>
+        <button id="bu">Show All ></button>
       </div>
     </div>
     <div id="fourth">
       <h1>Let's work together...</h1>
       <p>How do you take your coffee?</p>
       <ol>
-        <li>Facebook</li>
-        <li>GitHub</li>
-        <li>Twitter</li>
-        <li>Send a mail</li>
-        <li>Call Me</li>
+        <li><i class="fab fa-facebook-square"></i>Facebook</li>
+        <li><i class="fab fa-github">GitHub</i></li>
+        <li><i class="fab fa-twitter">Twitter</i></li>
+        <li><i class="fas fa-at"> Send a mail</i></li>
+        <li><i class="fas fa-mobile-alt">Call me</i></li>
       </ol>
     </div>
     <div id="fifth">
