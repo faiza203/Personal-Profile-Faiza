@@ -48,10 +48,12 @@
       font-size: 70px;
     }
     #second p {
-      color: red;
+      color: white;
       font-family: "Poppins", sans-serif;
       font-size: 30px;
       font-style: italic;
+      background-color: #181719;
+      padding: 20px;
     }
     #third {
       background: #45567d;
@@ -79,7 +81,7 @@
       height: 25rem;
       width: 25rem;
       padding: 10px 10px 10px 10px;
-      cursor:n-resize ;
+      cursor: n-resize;
     }
     #thirdab img {
       margin-left: 150px;
@@ -101,7 +103,8 @@
       margin-left: 156px;
       margin-right: 1022px;
     }
-    #third #bu {
+    button {
+      transition: 1s;
       background-color: #303841;
       color: white;
       height: 50px;
@@ -112,6 +115,9 @@
       margin-left: 750px;
       margin-bottom: 150px;
       cursor: pointer;
+    }
+    button:hover {
+      border: 1px solid white;
     }
     #fourth {
       background-color: #303841;
@@ -145,6 +151,10 @@
       padding: 10px 20px 10px 20px;
       font-family: "Poppins", sans-serif;
       cursor: pointer;
+    }
+
+    #fourth li:hover {
+      border: 1px solid white;
     }
     #fifth {
       background-color: #303841;
@@ -181,27 +191,29 @@
         <h1>These are some of my projects</h1>
         <div id="thirdaa">
           <div class="abc">
-            <img src="C:/Users/Faiza/Pictures/d.png" />
+            <img src="./images/d.png" />
             <p>Tribute Page</p>
           </div>
           <div class="abc">
-            <img src="C:/Users/Faiza/Pictures/a.png" />
+            <img src="./images/a.png" />
             <p>Product Page</p>
           </div>
           <div id="abc">
-            <img src="C:/Users/Faiza/Pictures/b.png" />
+            <img src="./images/b.png" />
             <p>Survey form</p>
           </div>
         </div>
         <div id="thirdab">
           <div class="abc">
-            <img src="C:/Users/Faiza/Pictures/c.png" />
+            <img src="./images/c.png" />
             <p>Technical Page</p>
           </div>
         </div>
       </div>
       <div id="thirdB">
-        <button id="bu">Show all ></button>
+        <a href="https://github.com/faiza203?tab=repositories" target="_blank">
+          <button>Show all ></button>
+        </a>
       </div>
     </div>
     <div id="fourth">
