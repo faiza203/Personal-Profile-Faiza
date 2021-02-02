@@ -1,5 +1,4 @@
 body {
-    size: inherit;
     margin: 0;
     background-color: #303841;
 }
@@ -22,7 +21,6 @@ body {
     cursor: pointer;
 }
 
-/* 
 #second {
     background-color: black;
     color: white;
@@ -46,8 +44,7 @@ body {
 }
 
 #third {
-    background: #45567d;
-    margin-top: -22px;
+    background: #303841;
 }
 
 #thirdA h1 {
@@ -56,30 +53,18 @@ body {
     color: white;
     font-family: "Poppins", sans-serif;
     border-bottom: 2px white solid;
-    margin-right: 450px;
-    margin-left: 450px;
-    padding-top: 150px;
-    margin-top: 10px;
+    padding: 10px 0;
 }
 
-#third #thirdaa {
+
+#thirdA{
     display: flex;
     flex-direction: row;
-    margin-top: 75px;
-    margin-right: 100px;
-    margin-left: 150px;
 }
-
 #thirdA img {
-    height: 25rem;
-    width: 25rem;
-    padding: 10px 10px 10px 10px;
-    cursor: n-resize;
-}
-
-#thirdab img {
-    margin-left: 150px;
-    margin-top: 50px;
+    height: 20rem;
+    width: 20rem;
+    padding: 10px;
     cursor: n-resize;
 }
 
@@ -94,11 +79,6 @@ body {
     padding: 10px 0px 10px 110px;
     margin: -14px 10px 10px 10px;
     background-color: #303841;
-}
-
-#thirdab .abc p {
-    margin-left: 156px;
-    margin-right: 1022px;
 }
 
 button {
@@ -179,4 +159,4 @@ button:hover {
     padding: 50px 187px 0px 20px;
     margin: 0px 0px 0px 0px;
     cursor: nwse-resize;
-} */
+}
