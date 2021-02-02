@@ -5,34 +5,22 @@ body {
 }
 
 #navbar {
-    background-color: red;
-    position: fixed;
-    display: flex;
-    top: 0;
-    height: 3em;
-    width: 100%;
-}
-
-/* 
-#navbar ol {
-    list-style-type: none;
+    background-color: #be3144;
     display: flex;
     flex-direction: row;
-    background: #be3144;
-    padding-left: 1vh;
+    top: 0;
+    height: 5em;
+    text-align: center;
+    justify-content: center;
 }
 
-#navbar li {
+#navbar p {
     font-size: 25px;
     color: white;
     font-family: "Poppins", sans-serif;
     padding: 10px 40px 10px 10px;
     cursor: pointer;
 }
-
-#navbar .aaa {
-    margin-left: 885px;
-} */
 
 /* 
 #second {
