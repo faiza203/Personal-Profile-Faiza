@@ -4,6 +4,7 @@ body {
   overflow-x: hidden;
   font-family: sans-serif;
   color: #f0f0f0;
+  text-align: center;
 }
 
 #navbar {
@@ -17,7 +18,7 @@ body {
   right: 0;
 }
 
- a {
+a {
   font-size: 20px;
   color: #f0f0f0;
   font-family: "Poppins", sans-serif;
@@ -31,14 +32,13 @@ body {
   background-color: black;
   display: flex;
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-  text-align: center;
   height: 100vh;
   justify-content: center;
   min-height: 300px;
   flex-direction: column;
 }
 
-#about h1 {
+h1 {
   font-family: "Raleway", sans-serif;
   font-size: 70px;
 }
@@ -46,107 +46,130 @@ body {
 #about p {
   color: #be3144;
   font-size: 30px;
+}
+p {
+  font-size: 20px;
   font-style: italic;
   padding: 20px;
-  font-family: 'Poppins' , sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #work {
-  background: #303841;
+  background: #45567d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8em;
+}
+
+button a {
+  display: flex;
+  padding: 0;
 }
 
 #work h1 {
   font-size: 45px;
-  text-align: center;
   font-family: "Poppins", sans-serif;
   border-bottom: 2px white solid;
   padding: 10px 0;
 }
 
 button {
-  transition: 1s;
   background-color: #303841;
   color: white;
   height: 50px;
-  border: none;
   font-size: 25px;
-  width: 300px;
-  margin-left: 750px;
+  width: 150px;
   cursor: pointer;
   justify-content: center;
   align-items: center;
   display: flex;
+  padding: 0;
+  border: 1px solid #303841;
+  border-radius: 2px;
+}
+
+button:hover {
+  background-color: #be3144;
+  color: white;
+  border: 1px solid #be3144 !important;
+}
+
+.fas.fa-chevron-right {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
 
 button:hover {
   border: 1px solid white;
 }
+button:hover .fas.fa-chevron-right {
+  transform: translateX(2px);
+}
 
-#fourth {
+#contact {
   background-color: #303841;
-  margin-top: -22px;
-  text-align: center;
-  border-bottom: 4px #be3144 solid;
+  padding-top: 5em;
 }
 
-#fourth h1 {
-  padding-top: 300px;
-  font-size: 65px;
-  margin-top: 0px;
-  font-family: "Poppins", sans-serif;
+#contact h1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-#fourth p {
-  font-size: 30px;
-  font-style: italic;
-  margin-top: -25px;
+#contact p {
+  padding: 0 20px 20px 20px;
 }
 
-#fourth ol {
+#contact ol {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  margin-left: 420px;
-  margin-right: 420px;
   font-size: 25px;
   padding-bottom: 150px;
   cursor: pointer;
+  flex-wrap: wrap;
 }
 
-#fourth li {
-  padding: 10px 20px 10px 20px;
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
-}
-
-#fourth li:hover {
-  border: 1px solid white;
-}
-
-#fifth {
-  background-color: #303841;
-  margin: -25px 0px 0px 0px;
-  justify-content: space-evenly;
-}
-
-#fifth ol {
+#contact li {
   display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  font-size: 25px;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  transition: transform 0.3s ease-out;
+  padding: 5px 1em;
 }
 
-#fifth li {
-  padding: 50px 187px 0px 20px;
-  margin: 0px 0px 0px 0px;
-  cursor: nwse-resize;
+#contact li:hover {
+  padding-top: 2em;
+  transform: translateY(8px);
 }
 
+img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  padding: 1em;
+}
 
+@media (max-width: 550px) {
+  h1 {
+    font-size: 50px;
+  }
+img {
+  height: 200px;
+  width: 200px;
+}
+}
 
-img{
-     height: 300px;
-    width: 300px;
-    object-fit: cover;
+@media (max-width: 430px) {
+  a {
     padding: 1em;
   }
+}
+
+@media (max-width: 300px) {
+  a {
+    padding: 1em 7px;
+  }
+}
