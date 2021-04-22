@@ -1,24 +1,29 @@
 body {
     margin: 0;
     background-color: #303841;
+    overflow-x: hidden;
+    font-family: sans-serif;
 }
 
 #navbar {
     background-color: #be3144;
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    position: fixed;
     top: 0;
-    height: 5em;
-    text-align: center;
-    justify-content: center;
+    left: 0;
+    right: 0;
 }
 
-#navbar p {
-    font-size: 25px;
+#navbar a {
+    font-size: 20px;
     color: white;
     font-family: "Poppins", sans-serif;
-    padding: 10px 40px 10px 10px;
+    padding: 1.5rem 2rem ;
+    font-weight: 600;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #second {
@@ -35,11 +40,10 @@ body {
 }
 
 #second p {
-    color: white;
+    color: red;
     font-family: "Poppins", sans-serif;
     font-size: 30px;
     font-style: italic;
-    background-color: #181719;
     padding: 20px;
 }
 
